@@ -1,5 +1,5 @@
 /* ==========================================================
-   Ponto Gim | estilos só da página do catálogo
+   Ponto GIM | estilos só da página do catálogo
    (usa as variáveis e botões do style.css)
    ========================================================== */
 
@@ -92,10 +92,10 @@
 /* Sem foto: o nome da categoria vira textura de tipografia */
 .item-word {
   padding: 0 .9rem .35rem;
-  font: 400 clamp(2.4rem, 5vw, 3.2rem)/.95 var(--font-display);
+  font: 400 clamp(1.5rem, 2.4vw, 1.9rem)/1 var(--font-display);
   text-transform: uppercase;
   opacity: .32;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 .item-media.has-img .item-word { display: none; }
 
@@ -110,6 +110,7 @@
 }
 .item h3 { font-size: 1.2rem; font-weight: 800; line-height: 1.25; }
 .item-desc { font-size: .98rem; line-height: 1.45; color: rgba(18, 13, 31, .72); }
+.item-prazo { margin-top: .2rem; font-size: .92rem; font-weight: 600; color: rgba(18, 13, 31, .6); }
 .item-price { margin-top: auto; padding-top: .6rem; font-weight: 800; }
 .item-body .btn { margin-top: .5rem; }
 
